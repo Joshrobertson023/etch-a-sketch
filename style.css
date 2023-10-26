@@ -13,7 +13,6 @@ body {
    flex-direction: column;
    flex: 1 1 25%;
    align-items: center;
-   border: 3px solid blue;
 }
 
 #input {
@@ -23,9 +22,9 @@ body {
 #container {
    display: flex;
    flex-direction: column;
-   flex: 1 1 75%;
    border: 5px solid slategray;
-   height: 100%;
+   width: 75vw;
+   height: 100vh;
 }
 
 .row {
@@ -34,8 +33,7 @@ body {
 }
 
 .box {
-   border: 2px solid black;
-   width: 10px;
+   border: 1px solid black;
    height: 100%;
    flex: 1 1 100%;
 }
